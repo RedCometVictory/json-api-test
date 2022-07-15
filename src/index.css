@@ -11,3 +11,51 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.nav {
+  color: brown;
+  padding: 0 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* .navigation {} */
+
+.navigation ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+}
+
+.navigation li {
+  margin: 0 0.875rem;
+}
+
+.navigation li:last-child {
+  margin: 0 0 0 0.875rem;
+}
+
+.users-list {
+  margin: 0 auto;
+  border-radius: 4px;
+  padding: 0 2rem;
+  border: 2px double olivedrab;
+}
+
+.user-detail {
+  margin: 0 2rem;
+  padding: 1rem 2rem;
+  border: 2px dotted palevioletred;
+}
+
+.name {
+  cursor: pointer;
+}
+
+.name a {
+  text-decoration: none;
+}
